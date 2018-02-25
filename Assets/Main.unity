@@ -236,6 +236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1571404674}
   - component: {fileID: 1571404673}
+  - component: {fileID: 1571404675}
   m_Layer: 0
   m_Name: Chess Board
   m_TagString: Untagged
@@ -282,6 +283,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1571404675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1571404672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1af966b7cfcb6d49adfedf9f0d5644c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightPrefab: {fileID: 1465941857087158, guid: a024fd51d6f01274da21ed944e0ab672,
+    type: 2}
 --- !u!1 &1631676821
 GameObject:
   m_ObjectHideFlags: 0
