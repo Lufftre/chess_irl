@@ -245,7 +245,10 @@ MonoBehaviour:
   - {fileID: 1038715794840050, guid: 86039e5147a2e264c991b17124b68d87, type: 2}
   - {fileID: 1474449236938152, guid: 37ecd5f41fe05c049889dc4e5d4c6b0f, type: 2}
   isWhiteTurn: 1
-  moveSound: {fileID: 8300000, guid: dfb6d8488a0ac4a6ebaf7e6d4568e073, type: 3}
+  moveSound: {fileID: 8300000, guid: d3eae0ea50eec495e9e8e23541062c5b, type: 3}
+  captureSound: {fileID: 8300000, guid: b57e31d45bca144609a0d0e3456e3e90, type: 3}
+  hoverSound: {fileID: 8300000, guid: 19794348948ee41dcbe45b856ede8cef, type: 3}
+  pickSound: {fileID: 8300000, guid: dfb6d8488a0ac4a6ebaf7e6d4568e073, type: 3}
 --- !u!114 &114781699700105254
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -14,7 +14,10 @@ public abstract class Chessman : MonoBehaviour {
         CurrentX = x;
         CurrentY = y;
     }
-
+    public virtual bool IsKing()
+    {
+        return false;
+    }
     public bool PossibleMove(int x, int y)
     {
         return PossibleMoves()[x, y];

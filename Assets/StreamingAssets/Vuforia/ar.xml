@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="sapiens" size="1.000000 1.534777" />
+    <ImageTarget name="Ica" size="1.000000 1.637298" />
+    <ImageTarget name="keyboard" size="1.000000 2.253582" />
     <ImageTarget name="spinner" size="1.000000 1.000000" />
     <ImageTarget name="chess" size="1.000000 1.000000" />
     <ImageTarget name="5h" size="1.000000 1.563209" />

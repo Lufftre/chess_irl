@@ -6,7 +6,9 @@ public class BoardHighlightsOffline : MonoBehaviour {
 
     public static BoardHighlightsOffline Instace { set; get; }
     public GameObject highlightPrefab;
+    public GameObject highlightPrefabChessman;
     private List<GameObject> highlights;
+    private BoardManagerOffline boardManager;
 
 
 
@@ -14,6 +16,7 @@ public class BoardHighlightsOffline : MonoBehaviour {
     {
         Instace = this;
         highlights = new List<GameObject>();
+        boardManager = GetComponent<BoardManagerOffline>();
         
     }
 
@@ -37,7 +40,11 @@ public class BoardHighlightsOffline : MonoBehaviour {
             {
                 if (moves[i, j]) { 
                     //GameObject go = GetHighLightObject();
-                    GameObject go = Instantiate(highlightPrefab);
+                    GameObject go;
+                    if(boardManager.Chessmans[i,j] == null)
+                        go = Instantiate(highlightPrefab);
+                    else
+                        go = Instantiate(highlightPrefabChessman);
                     highlights.Add(go);
                     // go.SetActive(true);
                     go.transform.position = new Vector3(i, 0, j);
